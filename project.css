@@ -1,0 +1,63 @@
+body {
+    background-color: burlywood;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+nav {
+    position: fixed; /* Fixes the nav bar at the top */
+    top: 0;
+    width: 100%; /* Stretches the nav bar to both ends of the page */
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    padding: 20px 0;
+    display: flex;
+    justify-content: center; /* Center the nav items */
+    align-items: center;
+    z-index: 1000; /* Ensure the nav bar stays on top of other content */
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 84%;
+    margin: 0 auto;
+}
+
+nav a {
+    color: #fff; /* White text */
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+main {
+    margin-top: 80px; /* Ensures the main content starts below the fixed nav bar */
+}
+
+#port {
+    font-size: 20px;
+    display: block;
+    margin: 20px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.details {
+    padding: 0 20px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 100px;
+    margin-top: 20px;
+}
