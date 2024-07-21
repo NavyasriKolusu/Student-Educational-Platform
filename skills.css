@@ -1,0 +1,89 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+}
+
+nav {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 20px 0;
+    position: fixed;
+    width: 100%; /* Stretches the nav bar to both ends of the page */
+    top: 0;
+    z-index: 1000;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px; /* Adjust as necessary */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Optional: Adds some padding */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+main {
+    padding: 120px 20px 20px; /* Adds padding at the top to accommodate the fixed nav bar */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#port {
+    font-size: 20px;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 100px;
+    margin-top: 40px; /* Ensures space between headings and other elements */
+}
+
+.details ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; /* Allows the items to wrap if they don't fit in one row */
+    padding: 0;
+    margin: 20px 0;
+}
+
+.details li {
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.details #box1 {
+    background-image: url(Srm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: transparent;
+}
+
+a {
+    margin-right: 6px;
+}
